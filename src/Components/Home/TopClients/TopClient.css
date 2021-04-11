@@ -1,0 +1,68 @@
+.client-img .slack {
+  width: 160px;
+  height: 50px;
+}
+.client-img .google {
+  width: 160px;
+  height: 50px;
+}
+.client-img .uber {
+  width: 160px;
+  height: 80px;
+}
+.client-img .netflix {
+  width: 160px;
+  height: 50px;
+}
+.client-img .airbnb {
+  width: 160px;
+  height: 50px;
+}
+
+.client-img {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+}
+
+.client-img img {
+  margin: 0 auto;
+}
+
+.client {
+  width: 75%;
+}
+
+.client-img {
+  margin-top: 80px;
+}
+@media (max-width: 768px) {
+  .client-img {
+    margin-top: 280px;
+  }
+  .client-img img {
+    width: 13% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .client {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .client-img {
+    margin-top: 210px;
+  }
+  .client-img img {
+    width: 13% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .client {
+    width: 100%;
+  }
+}

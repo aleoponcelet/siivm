@@ -1,0 +1,68 @@
+.client-img .maestro1 {
+  width: 125px;
+  height: 125px;
+}
+.client-img .maestro2 {
+  width: 125px;
+  height: 125px;
+}
+.client-img .maestro3 {
+  width: 125px;
+  height: 125px;
+}
+.client-img .maestro4 {
+  width: 125px;
+  height: 125px;
+}
+.client-img .maestro5 {
+  width: 125px;
+  height: 125px;
+}
+
+.client-img {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+}
+
+.client-img img {
+  margin: 0 auto;
+}
+
+.client {
+  width: 75%;
+}
+
+.client-img {
+  margin-top: 80px;
+}
+@media (max-width: 768px) {
+  .client-img {
+    margin-top: 280px;
+  }
+  .client-img img {
+    width: 13% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .client {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .client-img {
+    margin-top: 210px;
+  }
+  .client-img img {
+    width: 13% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .client {
+    width: 100%;
+  }
+}
