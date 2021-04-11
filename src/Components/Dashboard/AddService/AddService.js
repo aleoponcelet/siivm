@@ -44,7 +44,9 @@ const AddService = () => {
 
   // Allow access to Admin Only
   // Admin context from App.js
+  // eslint-disable-next-line
   const [isAdmin, setIsAdmin] = useContext(AdminContext);
+  // eslint-disable-next-line
   const [isAdminTemp, setIsAdminTemp] = useContext(AdminContextTemp);
   let history = useHistory();
 

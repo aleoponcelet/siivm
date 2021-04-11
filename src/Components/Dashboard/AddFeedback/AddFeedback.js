@@ -7,6 +7,7 @@ import { loggedInInfo } from '../../Login/loginManager';
 
 const AddFeedback = () => {
   // Context from app.js
+  // eslint-disable-next-line
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
   // Logged in user info from session storage:

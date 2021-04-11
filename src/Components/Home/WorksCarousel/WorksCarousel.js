@@ -20,31 +20,31 @@ const responsive = {
 
 const items = [
   <div className='item'>
-    <img src={carousel_1} className='carousel-img' />
+    <img src={carousel_1} className='carousel-img' alt="ejemplo mod 1"/>
   </div>,
   <div className='item'>
-    <img src={carousel_2} className='carousel-img' />
+    <img src={carousel_2} className='carousel-img' alt="ejemplo mod 2"/>
   </div>,
   <div className='item'>
-    <img src={carousel_3} className='carousel-img' />
+    <img src={carousel_3} className='carousel-img' alt="ejemplo mod 3"/>
   </div>,
   <div className='item'>
-    <img src={carousel_4} className='carousel-img' />
+    <img src={carousel_4} className='carousel-img' alt="ejemplo mod 4"/>
   </div>,
   <div className='item'>
-    <img src={carousel_5} className='carousel-img' />
+    <img src={carousel_5} className='carousel-img' alt="ejemplo mod 5"/>
   </div>,
   <div className='item'>
-    <img src={carousel_6} className='carousel-img' />
+    <img src={carousel_6} className='carousel-img' alt="ejemplo mod 6"/>
   </div>,
   <div className='item'>
-    <img src={carousel_7} className='carousel-img' />
+    <img src={carousel_7} className='carousel-img' alt="ejemplo mod 7"/>
   </div>,
   <div className='item'>
-    <img src={carousel_8} className='carousel-img' />
+    <img src={carousel_8} className='carousel-img' alt="ejemplo mod 8"/>
   </div>,
   <div className='item'>
-    <img src={carousel_9} className='carousel-img' />
+    <img src={carousel_9} className='carousel-img' alt="ejemplo mod 9"/>
   </div>,
 ];
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import maestro1 from '../../../assets/images/people/m1.jpg';
-import maestro2 from '../../../assets/images/people/m2.jpg';
+/* import maestro2 from '../../../assets/images/people/m2.jpg';
 import maestro3 from '../../../assets/images/people/m3.jpg';
 import maestro4 from '../../../assets/images/people/m4.jpg';
-import maestro5 from '../../../assets/images/people/m5.jpg';
+import maestro5 from '../../../assets/images/people/m5.jpg'; */
 import './Profesores.css';
 
 const Profesores = () => {

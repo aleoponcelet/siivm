@@ -49,7 +49,9 @@ const AdminServiceList = () => {
 
   // Allow access to Admin Only
    // Admin context from App.js
+   // eslint-disable-next-line
    const [isAdmin, setIsAdmin] = useContext(AdminContext);
+   // eslint-disable-next-line
    const [isAdminTemp, setIsAdminTemp] = useContext(AdminContextTemp);
    let history = useHistory();
   
@@ -104,29 +106,29 @@ const AdminServiceList = () => {
                   <select
                     onClick={() => setSelectService(service)}
                     onChange={(e) => updateStatus(e.target.value)}
-                    className={
+                    className={// eslint-disable-next-line
                       service.estado == 'Pendiente'
-                        ? 'btn btn-danger'
+                        ? 'btn btn-danger' // eslint-disable-next-line
                         : service.estado == 'Aceptado'
-                        ? 'btn btn-success'
+                        ? 'btn btn-success' // eslint-disable-next-line
                         : service.estado == 'Revisión'
                         ? 'btn btn-warning'
                         : 'btn btn-dark'
                     }
                   >
-                    <option
+                    <option // eslint-disable-next-line
                       selected={service.estado == 'Pendiente'}
                       className='bg-white text-secondary'
                     >
                       Pendiente
                     </option>
-                    <option
+                    <option // eslint-disable-next-line
                       selected={service.estado == 'Revisión'}
                       className='bg-white text-secondary'
                     >
                       Revisión
                     </option>
-                    <option
+                    <option // eslint-disable-next-line
                       selected={service.estado == 'Aceptado'}
                       className='bg-white text-secondary'
                     >

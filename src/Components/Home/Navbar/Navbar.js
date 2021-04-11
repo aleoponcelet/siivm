@@ -3,15 +3,19 @@ import './Navbar.css';
 import logo from '../../../assets/images/logos/logo.png';
 import { Link } from 'react-router-dom';
 import { AdminContext, AdminContextTemp, UserContext } from '../../../App';
+// eslint-disable-next-line
 import * as firebase from 'firebase/app';
 import 'firebase/auth';
+// eslint-disable-next-line
 import { handleSignOut, isLoggedIn } from '../../Login/loginManager';
 //=============================================================================
 
 const Navbar = () => {
   // Context from App.js
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+  // eslint-disable-next-line
   const [isAdmin, setIsAdmin] = useContext(AdminContext);
+  // eslint-disable-next-line
   const [isAdminTemp, setIsAdminTemp] = useContext(AdminContextTemp);
 
   // is logged in

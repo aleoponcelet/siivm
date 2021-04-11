@@ -16,7 +16,7 @@ const ServiceDetail = ({ service }) => {
       style={{ transform: props.xys.interpolate(trans) }}>
         <Link to={'service/' + service._id}>
           {
-                service.imagen ? <img style={{ height: '50px' }} src={`data:image/png;base64,${service.imagen.img}`}/>
+                service.imagen ? <img style={{ height: '50px' }} src={`data:image/png;base64,${service.imagen.img}`} alt="icono area"/>
                 :
                 <img style={{ height: '50px' }} src={service.img} alt='' />
                 

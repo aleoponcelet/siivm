@@ -14,6 +14,7 @@ const ClientServiceList = () => {
   const [clientServices, setClientServices] = useState([]);
 
   // Logged in user Context from app.js
+  // eslint-disable-next-line
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
   // logged User info from session

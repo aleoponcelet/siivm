@@ -3,8 +3,9 @@ import React from 'react';
 const ClientServiceItem = (props) => {
   // Receive props from ClientServiceList Component
   console.log(props.service);
+  // eslint-disable-next-line
   const { _id, titulo, descripcion, img, estado, image } = props.service;
-
+// eslint-disable-next-line
   return (
     <div className='col-md-6 rounded mb-3'>
       <div className='card h-100'>
@@ -14,7 +15,8 @@ const ClientServiceItem = (props) => {
               <div className='mb-3 mb-md-0'>
                 {/* Show image */}
 
-                {image ? <img style={{ height: '50px' }} src={`data:image/png;base64,${image.img}`}/>
+                {// eslint-disable-next-line
+                image ? <img style={{ height: '50px' }} src={`data:image/png;base64,${image.img}`}/>
                 : 
                 <img className='img-fluid w-25' src={img} alt={titulo} />
                 
@@ -25,8 +27,10 @@ const ClientServiceItem = (props) => {
                 <div className='mb-0'>
                   <button
                       className={
+                        // eslint-disable-next-line
                       estado == 'Pendiente'
                         ? 'client-status-btn btn btn-sm btn-danger'
+                        // eslint-disable-next-line
                         : estado == 'Aceptado'
                         ? 'client-status-btn btn btn-sm btn-success'
                         : 'client-status-btn btn btn-sm btn-warning'

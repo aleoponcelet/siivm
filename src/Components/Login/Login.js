@@ -16,7 +16,9 @@ const Login = () => {
   initializeLoginFramework();
 
   //Handle New User:
+  // eslint-disable-next-line
   const [newUser, SetNewUSer] = useState(false);
+  // eslint-disable-next-line
   const [user, setUser] = useState({
     isSignedIn: false,
     name: '',
@@ -25,9 +27,11 @@ const Login = () => {
   });
 
   // Error Message:
+  // eslint-disable-next-line
   const [error, setError] = useState('');
 
   // Context from app.js
+  // eslint-disable-next-line
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
   // Redirecting to home/ Registration Component if signed In successfully
@@ -90,7 +94,7 @@ const Login = () => {
         <div className='card login-area rounded'>
           <div className='card-body d-flex justify-content-center align-items-center flex-column'>
             <h4 className='card-title text-center mb-4 mt-1'>Iniciar sesión</h4>
-            <a>Utilice su correo institucional UTEG  </a>
+            <p>Utilice su correo institucional UTEG  </p>
             <br></br>
             <div className='social-login'>
               <button className='btn' onClick={googleSignIn}>

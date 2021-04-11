@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, { useContext, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { useHistory } from 'react-router-dom';
@@ -6,6 +7,7 @@ import { AdminContext, AdminContextTemp, UserContext } from '../../../App';
 
 const AddAdmin = () => {
   // Context from app.js
+  // eslint-disable-next-line
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
   // handle redirected to home
@@ -34,7 +36,9 @@ const AddAdmin = () => {
 
     // Allow access to Admin Only
   // Admin context from App.js
+  // eslint-disable-next-line
   const [isAdmin, setIsAdmin] = useContext(AdminContext);
+  // eslint-disable-next-line
   const [isAdminTemp, setIsAdminTemp] = useContext(AdminContextTemp);
   
   // habilitar panel admin
@@ -48,6 +52,7 @@ const AddAdmin = () => {
 */
 
   // handle redirected to home
+  // eslint-disable-next-line
   function handleServiceUpdate() {
     history.push('/');
   }

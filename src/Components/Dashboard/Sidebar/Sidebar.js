@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Sidebar.css';
@@ -8,13 +9,17 @@ import {
   faCommentAlt,
   faPlus,
   faUserPlus,
+  // eslint-disable-next-line
   faSignOutAlt,
 } from '@fortawesome/free-solid-svg-icons';
+// eslint-disable-next-line
 import { AdminContext, AdminContextTemp, UserContext } from '../../../App';
 
 const Sidebar = () => {
   // Admin context from App.js
+  // eslint-disable-next-line
   const [isAdmin, setIsAdmin] = useContext(AdminContext);
+  // eslint-disable-next-line
   const [isAdminTemp, setIsAdminTemp] = useContext(AdminContextTemp);
 
   return (
