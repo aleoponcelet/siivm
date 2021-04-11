@@ -87,7 +87,7 @@ function App() {
                   <AddFeedback />
                 </DashboardLayout>
               </PrivateRoute>
-              <PrivateRoute exact path='/admin-service-lists'>
+              <PrivateRoute exact path='/admin-lista-registros'>
                 <DashboardLayout title='Lista de registros'>
                   <AdminServiceList />
                 </DashboardLayout>

@@ -29,7 +29,7 @@ const Sidebar = () => {
         {isAdmin || isAdminTemp ? (
           <>
             <li>
-              <Link to='/admin-service-lists' className='text-dark'>
+              <Link to='/admin-lista-registros' className='text-dark'>
                 <FontAwesomeIcon icon={faHdd} /> <span>Registros</span>
               </Link>
             </li>

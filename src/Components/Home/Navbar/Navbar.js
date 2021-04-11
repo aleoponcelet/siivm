@@ -73,7 +73,7 @@ const Navbar = () => {
             <Link
               to={
                 isAdminTemp || isAdmin
-                  ? '/admin-service-lists'
+                  ? '/admin-lista-registros'
                   : '/service-lists'
               }
               className='nav-link'

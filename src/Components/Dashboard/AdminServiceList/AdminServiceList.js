@@ -58,7 +58,7 @@ const AdminServiceList = () => {
    // If admin then allow
    useEffect(() => {
      if (isAdmin || isAdminTemp) {
-       history.push('/admin-service-lists');
+       history.push('/admin-lista-registros');
      } 
          else {
        history.push('/');
