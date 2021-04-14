@@ -1,6 +1,6 @@
 import React from 'react';
 import ClientFeedback from '../ClientFeedback/ClientFeedback';
-import ContactUs from '../ContactUs/ContactUs';
+import Contactarnos from '../Contactarnos/Contactarnos';
 import HeaderMain from '../HeaderMain/HeaderMain';
 import Navbar from '../Navbar/Navbar';
 import Services from '../Services/Services';
@@ -23,7 +23,7 @@ const Header = () => {
       <WorksCarousel />
       <ClientFeedback />
       <Profesores />
-      <ContactUs />
+      <Contactarnos />
     </main>
   );
 };
