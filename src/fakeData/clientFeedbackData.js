@@ -1,4 +1,4 @@
-const clientFeedbackData = [
+const ItemNoticiaDatos = [
   {
    
     "name": 'Nash Patrik',
@@ -26,4 +26,4 @@ const clientFeedbackData = [
 
 ];
 
-export default clientFeedbackData;
+export default ItemNoticiaDatos;

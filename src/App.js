@@ -61,7 +61,7 @@ function App() {
               <Route exact path='/'>
                 <Header />
               </Route>
-              <Route exact path='/home'>
+              <Route exact path='/inicio'>
                 <Header />
               </Route>
               <Route exact path='/login'>

@@ -47,12 +47,12 @@ const Navbar = () => {
         <ul className='navbar-nav  justify-content-between nav-link ml-auto align-items-md-center'>
           {/* Home Navigation Click redirect to home */}
           <li className="nav-item">
-          <Link to='/home' className='nav-link  active mr-3'>
+          <Link to='/inicio' className='nav-link  active mr-3'>
             Inicio
           </Link>
           </li>
           <li className="nav-item">
-          <a className='nav-link mr-3' href='#portfolio'>
+          <a className='nav-link mr-3' href='#galeria'>
            Galeria
           </a>
           </li>

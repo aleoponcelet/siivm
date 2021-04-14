@@ -1,7 +1,7 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import './WorksCarousel.css';
+import './ProyectosGaleria.css';
 import carousel_1 from '../../../assets/images/carousel-1.png';
 import carousel_2 from '../../../assets/images/carousel-2.png';
 import carousel_3 from '../../../assets/images/carousel-3.png';
@@ -48,9 +48,9 @@ const items = [
   </div>,
 ];
 
-const WorksCarousel = () => {
+const ProyectosGaleria = () => {
   return (
-    <section className='carousel-section mt-5' id='portfolio'>
+    <section className='carousel-section mt-5' id='galeria'>
       <h3 className='text-center' style={{fontSize: '34px', fontWeight:'600', marginTop:'70px'}}>
         <span style={{ color: '#1D2C49' }}>Galeria</span>
       </h3>
@@ -61,4 +61,4 @@ const WorksCarousel = () => {
   );
 };
 
-export default WorksCarousel;
+export default ProyectosGaleria;

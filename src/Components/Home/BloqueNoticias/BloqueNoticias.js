@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import PreLoader from '../../PreLoader/PreLoader';
-import ClientFeedbackItem from '../ClientFeedbackItem/ClientFeedbackItem';
-import './ClientFeedback.css';
+import ItemNoticia from '../ItemNoticia/ItemNoticia';
+import './BloqueNoticias.css';
 
-const ClientFeedback = () => {
+const BloqueNoticias = () => {
   // Set data using hook:
   const [reviews, setReviews] = useState([]);
 
@@ -30,7 +30,7 @@ const ClientFeedback = () => {
         <PreLoader loading={loading} />
         <div className='row my-5'>
           {reviews.map((review) => (
-            <ClientFeedbackItem key={review._id} review={review} />
+            <ItemNoticia key={review._id} review={review} />
           ))}
         </div>
       </div>
@@ -38,4 +38,4 @@ const ClientFeedback = () => {
   );
 };
 
-export default ClientFeedback;
+export default BloqueNoticias;

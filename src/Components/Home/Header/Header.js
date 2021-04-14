@@ -1,11 +1,11 @@
 import React from 'react';
-import ClientFeedback from '../ClientFeedback/ClientFeedback';
+import BloqueNoticias from '../BloqueNoticias/BloqueNoticias';
 import Contactarnos from '../Contactarnos/Contactarnos';
 import HeaderMain from '../HeaderMain/HeaderMain';
 import Navbar from '../Navbar/Navbar';
 import Services from '../Services/Services';
 import TopClients from '../TopClients/TopClients';
-import WorksCarousel from '../WorksCarousel/WorksCarousel';
+import ProyectosGaleria from '../ProyectosGaleria/ProyectosGaleria';
 import Profesores from '../Profesores/Profesores';
 
 import './Header.css';
@@ -20,8 +20,8 @@ const Header = () => {
       </div>
       <TopClients />
       <Services />
-      <WorksCarousel />
-      <ClientFeedback />
+      <ProyectosGaleria />
+      <BloqueNoticias />
       <Profesores />
       <Contactarnos />
     </main>

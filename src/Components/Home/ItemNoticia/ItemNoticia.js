@@ -1,7 +1,7 @@
 import React from 'react';
 import faker from 'faker';
 
-const ClientFeedbackItem = ({ review }) => {
+const ItemNoticia = ({ review }) => {
   return (
     <div className='col-md-4 text-center feedback-card mb-4'>
       <div className='d-flex flex-column text-left mb-4 card h-100 p-3'>
@@ -33,4 +33,4 @@ const ClientFeedbackItem = ({ review }) => {
   );
 };
 
-export default ClientFeedbackItem;
+export default ItemNoticia;
