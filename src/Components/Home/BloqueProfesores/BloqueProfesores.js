@@ -4,9 +4,9 @@ import maestro1 from '../../../assets/images/people/m1.jpg';
 import maestro3 from '../../../assets/images/people/m3.jpg';
 import maestro4 from '../../../assets/images/people/m4.jpg';
 import maestro5 from '../../../assets/images/people/m5.jpg'; */
-import './Profesores.css';
+import './BloqueProfesores.css';
 
-const Profesores = () => {
+const BloqueProfesores = () => {
   return (
     <section className='d-flex justify-content-center' id='profesores'>
         <div className='container mb-5 mt-3'>
@@ -30,4 +30,4 @@ const Profesores = () => {
   );
 };
 
-export default Profesores;
+export default BloqueProfesores;

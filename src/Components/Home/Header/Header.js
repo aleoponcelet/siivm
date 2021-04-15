@@ -6,7 +6,7 @@ import Navbar from '../Navbar/Navbar';
 import Services from '../Services/Services';
 import BloquePatrocinio from '../BloquePatrocinio/BloquePatrocinio';
 import ProyectosGaleria from '../ProyectosGaleria/ProyectosGaleria';
-import Profesores from '../Profesores/Profesores';
+import BloqueProfesores from '../BloqueProfesores/BloqueProfesores';
 
 import './Header.css';
 
@@ -22,7 +22,7 @@ const Header = () => {
       <Services />
       <ProyectosGaleria />
       <BloqueNoticias />
-      <Profesores />
+      <BloqueProfesores />
       <BloqueContacto />
     </main>
   );
