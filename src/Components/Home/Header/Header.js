@@ -5,7 +5,7 @@ import BloqueInicio from '../BloqueInicio/BloqueInicio';
 import BarraNav from '../BarraNav/BarraNav';
 import Services from '../Services/Services';
 import BloquePatrocinio from '../BloquePatrocinio/BloquePatrocinio';
-import ProyectosGaleria from '../ProyectosGaleria/ProyectosGaleria';
+import BloqueGaleria from '../BloqueGaleria/BloqueGaleria';
 import BloqueProfesores from '../BloqueProfesores/BloqueProfesores';
 
 import './Header.css';
@@ -20,7 +20,7 @@ const Header = () => {
       </div>
       <BloquePatrocinio />
       <Services />
-      <ProyectosGaleria />
+      <BloqueGaleria />
       <BloqueNoticias />
       <BloqueProfesores />
       <BloqueContacto />
