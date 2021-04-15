@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import ServiceDetail from '../ServiceDetail/ServiceDetail';
-import './Services.css';
+import ItemAreas from '../ItemAreas/ItemAreas';
+import './BloqueAreas.css';
 import PreLoader from '../../PreLoader/PreLoader';
 
-const Services = () => {
+const BloqueAreas = () => {
   // loader
   const [loading, setLoading] = useState(true);
 
@@ -32,7 +32,7 @@ const Services = () => {
         <div className='w-75 row mt-2 pt-5 justify-content-center justify-content-between'>
           <PreLoader loading={loading} />
           {serviceData.map((service) => (
-            <ServiceDetail service={service} key={service._id}></ServiceDetail>
+            <ItemAreas service={service} key={service._id}></ItemAreas>
           ))}
         </div>
       </div>
@@ -40,4 +40,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default BloqueAreas;

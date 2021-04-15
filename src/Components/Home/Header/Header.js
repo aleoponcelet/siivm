@@ -3,7 +3,7 @@ import BloqueNoticias from '../BloqueNoticias/BloqueNoticias';
 import BloqueContacto from '../BloqueContacto/BloqueContacto';
 import BloqueInicio from '../BloqueInicio/BloqueInicio';
 import BarraNav from '../BarraNav/BarraNav';
-import Services from '../Services/Services';
+import BloqueAreas from '../BloqueAreas/BloqueAreas';
 import BloquePatrocinio from '../BloquePatrocinio/BloquePatrocinio';
 import BloqueGaleria from '../BloqueGaleria/BloqueGaleria';
 import BloqueProfesores from '../BloqueProfesores/BloqueProfesores';
@@ -19,7 +19,7 @@ const Header = () => {
         <BloqueInicio />
       </div>
       <BloquePatrocinio />
-      <Services />
+      <BloqueAreas />
       <BloqueGaleria />
       <BloqueNoticias />
       <BloqueProfesores />
