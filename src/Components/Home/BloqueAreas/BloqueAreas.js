@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ItemAreas from '../ItemAreas/ItemAreas';
+import ItemArea from '../ItemArea/ItemArea';
 import './BloqueAreas.css';
 import PreLoader from '../../PreLoader/PreLoader';
 
@@ -32,7 +32,7 @@ const BloqueAreas = () => {
         <div className='w-75 row mt-2 pt-5 justify-content-center justify-content-between'>
           <PreLoader loading={loading} />
           {serviceData.map((service) => (
-            <ItemAreas service={service} key={service._id}></ItemAreas>
+            <ItemArea service={service} key={service._id}></ItemArea>
           ))}
         </div>
       </div>
