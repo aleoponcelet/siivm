@@ -1,10 +1,10 @@
 import React from 'react';
 import BloqueNoticias from '../BloqueNoticias/BloqueNoticias';
-import Contactarnos from '../Contactarnos/Contactarnos';
+import BloqueContacto from '../BloqueContacto/BloqueContacto';
 import HeaderMain from '../HeaderMain/HeaderMain';
 import Navbar from '../Navbar/Navbar';
 import Services from '../Services/Services';
-import TopClients from '../TopClients/TopClients';
+import BloquePatrocinio from '../BloquePatrocinio/BloquePatrocinio';
 import ProyectosGaleria from '../ProyectosGaleria/ProyectosGaleria';
 import Profesores from '../Profesores/Profesores';
 
@@ -18,12 +18,12 @@ const Header = () => {
         <Navbar></Navbar>
         <HeaderMain></HeaderMain>
       </div>
-      <TopClients />
+      <BloquePatrocinio />
       <Services />
       <ProyectosGaleria />
       <BloqueNoticias />
       <Profesores />
-      <Contactarnos />
+      <BloqueContacto />
     </main>
   );
 };

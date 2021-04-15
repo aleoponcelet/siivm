@@ -2,7 +2,7 @@ import React from 'react';
 // eslint-disable-next-line
 import { useForm } from 'react-hook-form';
 
-const Contactarnos = () => {
+const BloqueContacto = () => {
    return (
     <section style ={{backgroundColor:'#ccc'}} className='contact-section d-flex justify-content-center align-items-center flex-column mt-5 py-3' id='contacto'>
       <div className='w-75 row mt-3 pt-5 justify-content-between justify-content-center'>
@@ -68,4 +68,4 @@ const Contactarnos = () => {
   );
 };
 
-export default Contactarnos;
+export default BloqueContacto;

@@ -4,9 +4,9 @@ import google from '../../../assets/images/logos/udg.jpg';
 import uber from '../../../assets/images/logos/jalisco2.jpg';
 import netflix from '../../../assets/images/logos/tl2.png';
 import airbnb from '../../../assets/images/logos/tl1.png';
-import './TopClient.css';
+import './BloquePatrocinio.css';
 
-const TopClients = () => {
+const BloquePatrocinio = () => {
   return (
     <section className='d-flex justify-content-center'>
       <div className='client row'>
@@ -22,4 +22,4 @@ const TopClients = () => {
   );
 };
 
-export default TopClients;
+export default BloquePatrocinio;
