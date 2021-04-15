@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import './Navbar.css';
+import './BarraNav.css';
 import logo from '../../../assets/images/logos/logo.png';
 import { Link } from 'react-router-dom';
 import { AdminContext, AdminContextTemp, UserContext } from '../../../App';
@@ -10,7 +10,7 @@ import 'firebase/auth';
 import { handleSignOut, isLoggedIn } from '../../Login/loginManager';
 //=============================================================================
 
-const Navbar = () => {
+const BarraNav = () => {
   // Context from App.js
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   // eslint-disable-next-line
@@ -119,4 +119,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default BarraNav;

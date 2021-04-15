@@ -1,8 +1,8 @@
 import React from 'react';
 import BloqueNoticias from '../BloqueNoticias/BloqueNoticias';
 import BloqueContacto from '../BloqueContacto/BloqueContacto';
-import HeaderMain from '../HeaderMain/HeaderMain';
-import Navbar from '../Navbar/Navbar';
+import BloqueInicio from '../BloqueInicio/BloqueInicio';
+import BarraNav from '../BarraNav/BarraNav';
 import Services from '../Services/Services';
 import BloquePatrocinio from '../BloquePatrocinio/BloquePatrocinio';
 import ProyectosGaleria from '../ProyectosGaleria/ProyectosGaleria';
@@ -15,8 +15,8 @@ const Header = () => {
   return (
     <main>
       <div className='header-container container'>
-        <Navbar></Navbar>
-        <HeaderMain></HeaderMain>
+        <BarraNav />
+        <BloqueInicio />
       </div>
       <BloquePatrocinio />
       <Services />

@@ -1,7 +1,7 @@
 import React from 'react';
 import frame from '../../../assets/images/logos/frame2.png';
 
-const HeaderMain = () => {
+const BloqueInicio = () => {
   return (
     <main style={{ height: '480px' }} className='row d-flex align-items-center justify-content-center mt-0 '>
       <div className='col-md-5'>
@@ -26,7 +26,7 @@ const HeaderMain = () => {
   );
 };
 
-export default HeaderMain;
+export default BloqueInicio;
 
 /*       Boton
       <form action="#contacto">
