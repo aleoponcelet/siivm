@@ -1,9 +1,8 @@
 import React from 'react';
 import maestro1 from '../../../assets/images/people/m1.jpg';
-/* import maestro2 from '../../../assets/images/people/m2.jpg';
+import maestro2 from '../../../assets/images/people/m2.jpg';
 import maestro3 from '../../../assets/images/people/m3.jpg';
-import maestro4 from '../../../assets/images/people/m4.jpg';
-import maestro5 from '../../../assets/images/people/m5.jpg'; */
+
 import './BloqueProfesores.css';
 
 const BloqueProfesores = () => {
@@ -18,10 +17,10 @@ const BloqueProfesores = () => {
         <div className='client-img row my-5'>
           <img className='maestro1' src={maestro1} alt='' />
           <p>Mario Meza<br />Ing. Atomico<br /> mario.meza@gmail.com</p>
-          <img className='maestro1' src={maestro1} alt='' />
-          <p>Mario Gonzalez<br />Ing. Nuclear<br /> mario.gonzalez@gmail.com</p>
-          <img className='maestro1' src={maestro1} alt='' />
-          <p>Mario Lopez<br />Ing. Industrial<br /> mario.lopez@gmail.com</p>
+          <img className='maestro2' src={maestro2} alt='' />
+          <p>Israel Franco<br />Ing. Nuclear<br /> Israel.franco@gmail.com</p>
+          <img className='maestro3' src={maestro3} alt='' />
+          <p>Miguel Navarro<br />Ing. Software<br /> miguel.navarro@gmail.com</p>
  
         </div>
       </div>

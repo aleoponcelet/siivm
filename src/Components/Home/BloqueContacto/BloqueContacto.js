@@ -1,6 +1,7 @@
 import React from 'react';
 // eslint-disable-next-line
 import { useForm } from 'react-hook-form';
+import maestro4 from '../../../assets/images/people/m4.jpg';
 
 const BloqueContacto = () => {
    return (
@@ -13,6 +14,9 @@ const BloqueContacto = () => {
           <p>
             Envie un correo y nos pondremos en contacto con usted.
           </p>
+          <img className='maestro3' src={maestro4} alt='' />
+          <p>Juan Torres<br />Encargado de Modulares<br /> juan.torres@uteg.edu.mx</p>
+ 
         </div>
 
         <div className='col-md-6'>
