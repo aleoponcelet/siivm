@@ -16,16 +16,16 @@ import AddService from './Components/Dashboard/AddService/AddService';
 import AddAdmin from './Components/Dashboard/AddAdmin/AddAdmin';
 // ========================================================================================
 
-// Context
+// Contexto
 export const UserContext = createContext();
 export const AdminContext = createContext();
 export const AdminContextTemp = createContext();
 
 function App() {
-  // Hook for Logged in user
+  // Hook para usuario logeado
   const [loggedInUser, SetLoggedInUser] = useState({});
 
-  // Get logged in user info from Session
+  // Obtener informacion del usuario logeado
   const loggedInUserSession = loggedInInfo();
   const [isAdmin, setIsAdmin] = useState(false);
 
@@ -39,7 +39,7 @@ function App() {
       .then((data) => setIsAdmin(data));
   }, [loggedInUserSession.email]);
 
-  // Get user info from when user click on sign in
+  // Obtener rol del usuario logeado
   const [isAdminTemp, setIsAdminTemp] = useState(false);
 
   useEffect(() => {
