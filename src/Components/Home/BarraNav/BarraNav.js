@@ -58,7 +58,7 @@ const BarraNav = () => {
           </li>
           <li className="nav-item">
           <a className='nav-link mr-3' href='#asesores'>
-           Profesores
+           Asesores
           </a>
           </li>
           <li className="nav-item">
