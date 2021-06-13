@@ -1,29 +1,38 @@
-import React from 'react';
-import maestro1 from '../../../assets/images/people/m1.jpg';
-import maestro2 from '../../../assets/images/people/m2.jpg';
-import maestro3 from '../../../assets/images/people/m3.jpg';
-
+import React, { useEffect, useState } from 'react';
+import PreLoader from '../../PreLoader/PreLoader';
+import ItemMaestro from '../ItemMaestro/ItemMaestro';
 import './BloqueProfesores.css';
 
 const BloqueProfesores = () => {
+  // Obtener datos:
+  const [reviews, setReviews] = useState([]);
+
+  // loader
+  const [loading, setLoading] = useState(true);
+
+  // Consumir api:
+  useEffect(() => {
+    fetch('https://modulares-backend.herokuapp.com/maestros')
+      .then((res) => res.json())
+      .then((data) => {
+        setReviews(data);
+        setLoading(false);
+      });
+  }, []);
+
   return (
-    <section className='d-flex justify-content-center' id='profesores'>
-        <div className='container mb-5 mt-3'>
-        <h3 className='text-center' style={{fontSize: '34px', fontWeight:'600', marginTop:'70px'}}>
-          Profesores
+    <section className='client-feedback d-flex align-items-center justify-content-center my-5'  id='asesores'>
+      <div className='container mb-5 mt-3'>
+        <h3 className='text-center mb-5' style={{fontSize:'36px', fontWeight:'600'}}>
+          <span style={{ color: '#171B4E' }}>Asesores</span>
+
         </h3>
-        <center className='text-black'>¿Necesitas un asesor? Contactalo.</center>
-      <div className=' justify-content-center justify-content-between'>
-        <div className='client-img row my-5'>
-          <img className='maestro1' src={maestro1} alt='' />
-          <p>Mario Meza<br />Ing. Atomico<br /> mario.meza@gmail.com</p>
-          <img className='maestro2' src={maestro2} alt='' />
-          <p>Israel Franco<br />Ing. Nuclear<br /> Israel.franco@gmail.com</p>
-          <img className='maestro3' src={maestro3} alt='' />
-          <p>Miguel Navarro<br />Ing. Software<br /> miguel.navarro@gmail.com</p>
- 
+        <PreLoader loading={loading} />
+        <div className='row my-5'>
+          {reviews.map((review) => (
+            <ItemMaestro key={review._id} review={review} />
+          ))}
         </div>
-      </div>
       </div>
     </section>
   );

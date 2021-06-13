@@ -57,7 +57,7 @@ const BarraNav = () => {
           </a>
           </li>
           <li className="nav-item">
-          <a className='nav-link mr-3' href='#profesores'>
+          <a className='nav-link mr-3' href='#asesores'>
            Profesores
           </a>
           </li>
