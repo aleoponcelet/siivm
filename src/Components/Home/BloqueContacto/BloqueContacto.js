@@ -26,7 +26,7 @@ const BloqueContacto = () => {
                 className='form-control'
                 name='email'
                 type='email'
-                placeholder='Su e-mail'
+                placeholder='E-mail'
                 required
               />
               
@@ -36,7 +36,7 @@ const BloqueContacto = () => {
                 className='form-control'
                 name='name'
                 type='text'
-                placeholder='Su nombre y carrera'
+                placeholder='Nombre'
                 required
               />
               
@@ -45,7 +45,7 @@ const BloqueContacto = () => {
               <textarea
                 className='form-control'
                 name='message'
-                placeholder='Su mensaje...'
+                placeholder='Mensaje...'
                 rows='6'
                 required
               ></textarea>

@@ -4,13 +4,13 @@ import ItemNoticia from '../ItemNoticia/ItemNoticia';
 import './BloqueNoticias.css';
 
 const BloqueNoticias = () => {
-  // Set data using hook:
+  // Obtener datos:
   const [reviews, setReviews] = useState([]);
 
   // loader
   const [loading, setLoading] = useState(true);
 
-  // Get data from API and set the data:
+  // Consumir api:
   useEffect(() => {
     fetch('https://modulares-backend.herokuapp.com/noticias')
       .then((res) => res.json())
