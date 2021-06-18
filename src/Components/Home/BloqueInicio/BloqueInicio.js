@@ -7,7 +7,7 @@ const BloqueInicio = () => {
       <div className='col-md-5'>
         <h1 style={{ fontWeight: '700', fontSize:'48px' }} className='mb-4'>
           <span style={{ color: '#1D2C49' }}>Proyectos Modulares UTEG<br/> </span>
-          <span style={{ color: '#5F4DE8' }}>2021</span>
+          <span style={{ color: '#5F4DE8' }}>2022</span>
         </h1>
 
         <p style={{color: '#000', fontSize:'16px'}} className='mb-4'>
