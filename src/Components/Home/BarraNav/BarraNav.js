@@ -11,17 +11,17 @@ import { handleSignOut, isLoggedIn } from '../../Login/loginManager';
 //=============================================================================
 
 const BarraNav = () => {
-  // Context from App.js
+  // Contesto de App.js
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   // eslint-disable-next-line
   const [isAdmin, setIsAdmin] = useContext(AdminContext);
   // eslint-disable-next-line
   const [isAdminTemp, setIsAdminTemp] = useContext(AdminContextTemp);
 
-  // is logged in
+  // está registrado
   const isLogged = isLoggedIn();
 
-  // Handle sign out button
+  // Manejar el botón de cierre de sesión
   const signOut = () => {
     setLoggedInUser({});
     sessionStorage.removeItem('token');
@@ -45,7 +45,7 @@ const BarraNav = () => {
       </button>
       <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
         <ul className='navbar-nav  justify-content-between nav-link ml-auto align-items-md-center'>
-          {/* Home Navigation Click redirect to home */}
+          {/* Inicio Navegación*/}
           <li className="nav-item">
           <Link to='/inicio' className='nav-link  active mr-3'>
             Inicio
@@ -111,7 +111,7 @@ const BarraNav = () => {
             </Link>
           )}
 </li>
-          {/* If user is not logged in show Login else Sign out  */}
+          {/* Si el usuario no ha iniciado sesión, muestre Iniciar sesión o cerrar sesión  */}
       
         </ul>
       </div>
