@@ -94,7 +94,7 @@ const Login = () => {
         <div className='card login-area rounded'>
           <div className='card-body d-flex justify-content-center align-items-center flex-column'>
             <h4 className='card-title text-center mb-4 mt-1'>Iniciar sesión</h4>
-            <p>Utilice su correo institucional UTEG  </p>
+            <p>Utilice su correo institucional  </p>
             <br></br>
             <div className='social-login'>
               <button className='btn' onClick={googleSignIn}>

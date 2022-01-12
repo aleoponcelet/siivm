@@ -70,7 +70,7 @@ const AddAdmin = () => {
                 className='form-control'
                 name='email'
                 type='email'
-                placeholder='admin@uteg.edu.mx'
+                placeholder='test@email.com'
                 ref={register({ required: true })}
               />
               {errors.email && <span className='error'>Email es requerido</span>}

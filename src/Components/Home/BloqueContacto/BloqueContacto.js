@@ -15,7 +15,7 @@ const BloqueContacto = () => {
             Envie un correo y nos pondremos en contacto con usted.
           </p>
           <img className='maestro3' src={maestro4} alt='' />
-          <p>Juan Torres<br />Encargado de Modulares<br /> juan.torres@uteg.edu.mx</p>
+          <p>Juan Torres<br />Encargado de Modulares<br /> email@test.com</p>
  
         </div>
 
@@ -64,7 +64,7 @@ const BloqueContacto = () => {
       </div>
       <div className='row mt-3'>
         <div className='col-md-12 text-center text-dark mt-5'>
-          <p>UTEG Olimpica - {new Date().getFullYear()}</p>
+          <p>{new Date().getFullYear()}</p>
 
         </div>
       </div>
