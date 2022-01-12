@@ -19,7 +19,7 @@ const MainDashboard = (props) => {
           <Link to='/'>
             <img
               className='text-center'
-              style={{ width: '150px', height: '47px' }}
+              style={{ width: '50px', height: '50px' }}
               src={logo}
               alt=''
             />

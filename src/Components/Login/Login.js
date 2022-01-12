@@ -83,7 +83,7 @@ const Login = () => {
           <Link to='/'>
             <div className='col-md-12 text-center mb-3'>
               <img
-                style={{ width: '150px', height: '47px' }}
+                style={{ width: '50px', height: '50px' }}
                 src={logo}
                 alt=''
               />
