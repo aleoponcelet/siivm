@@ -2,7 +2,7 @@
   <img src="https://github.com/aleoponcelet/siivm-frontend/blob/main/src/assets/images/logos/ic_launcher.png?raw=true" height="190" width="190"/>
 </p>
 <h1 align="center">SIIVM</h1>
-<p align="center">Sistema Integral de información y Validación Modular UTEG</p>
+<p align="center">Sistema Integral de información y Validación Modular</p>
 <p align="center">
   <a href="http://www.apache.org/licenses/LICENSE-2.0"><img alt="License: Apache-2.0 License" src="https://img.shields.io/badge/License-Apache_2.0-blue.svg"></a>
 </p>
