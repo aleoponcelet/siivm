@@ -1,5 +1,4 @@
 import React from 'react';
-import slack from '../../../assets/images/logos/uteg.png';
 import google from '../../../assets/images/logos/udg.jpg';
 import uber from '../../../assets/images/logos/jalisco2.jpg';
 import netflix from '../../../assets/images/logos/tl2.png';
