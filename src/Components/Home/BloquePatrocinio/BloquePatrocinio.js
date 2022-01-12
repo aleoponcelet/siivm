@@ -10,7 +10,6 @@ const BloquePatrocinio = () => {
     <section className='d-flex justify-content-center'>
       <div className='client row'>
         <div className='col-md-12 text-white client-img'>
-          <img className='slack' src={slack} alt='' />
           <img className='google' src={google} alt='' />
           <img className='uber' src={uber} alt='' />
           <img className='netflix' src={netflix} alt='' />
